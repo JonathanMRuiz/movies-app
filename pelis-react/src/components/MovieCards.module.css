@@ -1,0 +1,15 @@
+.movieCard {
+    list-style: none;
+    font-size:1.7rem;
+}
+
+.movieImage{
+    border-radius:20px;
+    background-color:#fff;
+}
+
+@media (max-width: 500px){
+    .movieImage{
+         width:90%; 
+        height:auto;}
+}
